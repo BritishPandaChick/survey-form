@@ -1,8 +1,15 @@
 # Survey Form
-Free Code Camp Responsive Design Project Survey Form. Made with HTML, CSS, and Bootstrap.
+freeCodeCamp Responsive Design Project. Survey Form. 
+
+## Dependencies 
+* HTML 
+* CSS
 
 ## Instructions
 Clone or download zip file. Open index.html file in your browser.
 
 ## Contributing
-Please contact me if you would like to contribute to this application.
+I will not be accepting any pull requests.
+
+## Acknowledgements 
+* freeCodeCamp
