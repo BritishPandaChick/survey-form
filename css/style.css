@@ -1,0 +1,42 @@
+/* == Base Styles == */
+body {
+    margin: 0 auto;
+    background-color: #fbfcfe;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px; 
+    color: #333;
+}
+
+/*== Header ==*/
+header {
+    padding: 20px;
+    background-color: #017ac8;
+}
+
+#title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #fbfcfe;
+}
+
+#description {
+    line-height: 32px;
+    padding: 20px;
+    color: #fbfcfe;
+}
+
+/*== Form ==*/
+#survey-form {
+    padding: 50px;
+}
+
+/*== Footer ==*/
+footer {
+    background-color: #017ac8;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 16px;
+    color: #fbfcfe;
+}
