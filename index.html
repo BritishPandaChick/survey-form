@@ -17,50 +17,67 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-    <header>
-      <h1 id="title" class="text-center">BritishPandaChick Channel Survey</h1>
-      <p id="description">I'm always looking for ways to grow the BritishPandaChick YouTube channel. Please take the
-        time to fill out this survey. Thank you for taking the time to help me improve this YouTube channel.</p>
-    </header>
+  <h1 id="title">BritishPandaChick Channel Survey</h1>
+  <p id="description">I'm always looking for ways to grow the BritishPandaChick YouTube channel. Please take the time to
+    fill out this survey. Thank you for taking the time to help me improve this YouTube channel.</p>
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label">Name
+        <input id="name" type="text" placeholder="name" required>
+      </label>
 
-    <main>
-      <h1 id="title">Title</h1>
-      <p id="description">Description goes here</p>
-      <form id="survey-form">
-        <label id="name-label">
-          <input id="name" type="text" placeholder="name" required>
-        </label>
-        <label id="email-label">
-          <input id="email" placeholder="email" required>
-        </label>
-        <label id="number-label">
-          <input id="number" type="number" min="13" max="120" placeholder="number">
-        </label>
+      <label id="email-label">Email
+        <input id="email" placeholder="email" required>
+      </label>
+
+      <label id="number-label">Age
+        <input id="number" type="number" min="1" max="99" placeholder="number">
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <label>Pick the option that best describes your current role.
         <select id="dropdown">
           <option value="">(select one)</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
+          <option value="1">Career Change</option>
+          <option value="2">Student</option>
+          <option value="3">Junior Developer</option>
+          <option value="4">Senior Developer</option>
+          <option value="5">I rather not say</option>
         </select>
-        <label>
-          <input type="radio" name="account-type"> Personal Account
-        </label>
-        <label>
-          <input type="radio" name="account-type"> Business Account
-        </label>
-        <label>
-          <input type="checkbox" name="terms"> I accept the terms and conditions.
-        </label>
-      </form>
-    </main>
+      </label>
+    </fieldset>
 
-    <footer>
-      <p class="text-center">&copy; 2018-2022, Sarah Bartley | All Rights Reserved</p>
-    </footer>
-  </div>
+    <fieldset>
+      <label>Would you subscribe to the BritishPandaChick YouTube channel?
+        <input type="radio" name="account-type" value="Yes"> Yes
+        <input type="radio" name="account-type" value="No"> No
+        <input type="radio" name="account-type" value="Not sure"> Not Sure
+      </label>
+    </fieldset>
 
-  <!-- freeCodeCamp testing -->
-  <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+    <fieldset>
+      <label>What would you like to see on this channel?
+        <input type="checkbox" value="Project Tutorial"> Project Tutorial
+        <input type="checkbox" value="Concept Tutorials"> Concept Tutorials
+        <input type="checkbox" value="Platform Reviews"> Platform Reviews
+        <input type="checkbox" value="Software Entertainment"> Software Entertainment
+        <input type="checkbox" value="Interviews"> Interviews
+        <input type="checkbox" value="Informative Content"> Informative Content
+        <input type="checkbox" value="Live Coding/Livestreams"> Live Coding/Livestreams
+        <input type="checkbox" value="Tool Reviews/Demonstrations"> Tool Reviews/Demonstrations
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <label>Any comments or suggestions you'd like to add?
+        <textarea rows="3" cols="30" placeholder="Comments go here . . ."></textarea>
+      </label>
+    </fieldset>
+
+    <input type="submit" value="Submit">
+  </form>
+  </main>
 </body>
 
 </html>
