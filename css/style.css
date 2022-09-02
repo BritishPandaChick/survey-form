@@ -2,14 +2,61 @@
 body {
     margin: 0 auto;
     background-color: #fbfcfe;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 20px;
     color: #333;
 }
 
+/*== Header ==*/
+header {
+    background: #017ac8;
+    padding: 30px 20px;
+}
+
+#title,
+#description {
+    color: #fbfcfe;
+}
+
 #title {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Calibri', sans-serif;
     font-size: 40px;
-    color: #017ac8;
     text-align: center;
+}
+
+/* == Form ==*/
+#survey-form {
+    border: 2px solid red;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: block;
+    padding: 20px 0;
+}
+
+.basics input,
+textarea,
+select {
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 2em;
+}
+
+.role input,
+textarea,
+select {
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 2em;
+}
+
+.subscribe input {
+    margin: 10px 0 0 0;
+    min-height: 2em;
 }

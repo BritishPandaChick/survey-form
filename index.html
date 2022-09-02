@@ -8,26 +8,24 @@
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@400;700&display=swap"
-    rel="stylesheet">
 </head>
 
 <body>
-  <h1 id="title">BritishPandaChick Channel Survey</h1>
-  <p id="description">I'm always looking for ways to grow the BritishPandaChick YouTube channel. Please take the time to
-    fill out this survey. Thank you for taking the time to help me improve this YouTube channel.</p>
+  <header>
+    <h1 id="title">BritishPandaChick Channel Survey</h1>
+    <p id="description">I'm always looking for ways to grow the BritishPandaChick YouTube channel. Please take the time
+      to
+      fill out this survey. Thank you for taking the time to help me improve this YouTube channel.</p>
+  </header>
+
   <form id="survey-form">
-    <fieldset>
+    <fieldset class="basics">
       <label id="name-label">Name
         <input id="name" type="text" placeholder="name" required>
       </label>
 
       <label id="email-label">Email
-        <input id="email" placeholder="email" required>
+        <input id="email" type="email" placeholder="email" required>
       </label>
 
       <label id="number-label">Age
@@ -35,7 +33,7 @@
       </label>
     </fieldset>
 
-    <fieldset>
+    <fieldset class="role">
       <label>Pick the option that best describes your current role.
         <select id="dropdown">
           <option value="">(select one)</option>
@@ -48,11 +46,11 @@
       </label>
     </fieldset>
 
-    <fieldset>
+    <fieldset class="subscribe">
       <label>Would you subscribe to the BritishPandaChick YouTube channel?
-        <input type="radio" name="account-type" value="Yes"> Yes
-        <input type="radio" name="account-type" value="No"> No
-        <input type="radio" name="account-type" value="Not sure"> Not Sure
+        <input type="radio" name="answer" value="Yes">Yes
+        <input type="radio" name="answer" value="No">No
+        <input type="radio" name="answer" value="Not sure">Not Sure
       </label>
     </fieldset>
 
@@ -75,9 +73,8 @@
       </label>
     </fieldset>
 
-    <input type="submit" value="Submit">
+    <input type="submit" id="submit" value="Submit">
   </form>
-  </main>
 </body>
 
 </html>
