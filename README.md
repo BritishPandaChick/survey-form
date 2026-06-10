@@ -1,8 +1,15 @@
 # Survey Form
-Free Code Camp Responsive Design Project Survey Form. Made with HTML, CSS, and Bootstrap.
+freecodecamp survey form project from the responsive web design certification
+
+## Tech Stack
+- HTML
+- CSS
+- Bootstrap
 
 ## Instructions
-Clone or download zip file. Open index.html file in your browser.
+1. Clone or download zip file. 
+2. Open index.html file in your browser.
+3. You can type information in the form fields and click check boxes. When you click submit and form fields aren't filled out, you will see an an alert notifying what form fields are missing information.
 
-## Contributing
-Please contact me if you would like to contribute to this application.
+## Acknowledgments
+* freecodecamp
