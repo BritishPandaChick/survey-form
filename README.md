@@ -1,10 +1,8 @@
 # Survey Form
-freecodecamp survey form project from the responsive web design certification
+freecodecamp survey form project for the responsive web design certification
 
 ## Tech Stack
 - HTML
-- CSS
-- Bootstrap
 
 ## Instructions
 1. Clone or download zip file. 
